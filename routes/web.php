@@ -11,9 +11,9 @@
 |
 cambiar a produccion despues
 */
-if (env('APP_ENV') === 'testing') {
+/*if (env('APP_ENV') === 'testing') {
     URL::forceSchema('https');
-}
+}*/
 
 Route::get('/', function () {
     return view('welcome');
